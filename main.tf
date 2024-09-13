@@ -50,7 +50,7 @@ module "eks" {
 
   cluster_addons = {
     aws-ebs-csi-driver = {
-      service_account_role_arn = arn:aws:iam::357125172738:role/aws-service-role/eks.amazonaws.com/AWSServiceRoleForAmazonEKS
+      service_account_role_arn = "arn:aws:iam::357125172738:role/aws-service-role/eks.amazonaws.com/AWSServiceRoleForAmazonEKS"
     }
   }
 
