@@ -5,7 +5,7 @@ provider "aws" {
 data "aws_availability_zones" "available" {
   filter {
     name   = "opt-in-status"
-    values = ["opt-in-not-required"]
+    values = ["us-east-1a","us-east-1b","us-east-1c"]
   }
 }
 
