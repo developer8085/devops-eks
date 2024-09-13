@@ -10,7 +10,7 @@ data "aws_availability_zones" "available" {
 }
 
 locals {
-  cluster_name = "education-eks-${var.environment}"
+  cluster_name = "eks-${var.environment}"
 }
 
 module "vpc" {
