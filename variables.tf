@@ -10,5 +10,5 @@ variable "region" {
 variable "environment" {
   description = "EKS dpeloyed environment"
   type = string
-  default = "test"
+  default = "dev"
 }
